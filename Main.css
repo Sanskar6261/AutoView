@@ -1,0 +1,41 @@
+
+ *
+{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#container1
+{
+    background: url(image/main_back.jpg) no-repeat;
+    width: 1530px;
+    height: 750px;
+    background-size: contain;
+}
+h5{
+    font-size: 40px;
+    text-align: center;
+    color: whitesmoke;
+    /* font-family: 'Cinzel', serif;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-variant: small-caps;
+ */
+ font-family: "Audiowide", sans-serif;
+}
+img{
+    width: 550px;
+    height: 550px;
+    z-index: -1;
+}
+img:hover
+{
+    transform: scale(1.5,1.5);
+    transition: 5s;
+}
+#img
+{
+    margin-left: 200px;
+}
